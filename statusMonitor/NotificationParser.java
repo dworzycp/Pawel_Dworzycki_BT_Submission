@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * Models the behaviour for a notification parser which reads a text file
- * and based on the lines in tha file it updates the statuses of nodes
+ * and based on the lines in the file it updates the statuses of nodes
  * 
  * @author Pawel Dworzycki
  * @version 19/11/2017
@@ -103,7 +103,6 @@ public class NotificationParser {
 			UpdateNode(notificationArray, 2, Status.ALIVE);
 		}
 		else {
-			// TODO handle this better
 			System.out.println("ERR: Notification type " + notificationArray[3] + " is not valid");
 		}
 		
